@@ -1,0 +1,31 @@
+<svg width="62" height="37" viewBox="0 0 62 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="62" height="37" fill="#F3F3F3"/>
+<g id="Yaway Luxury Guest House - Home / S - 720p" clip-path="url(#clip0_0_1)">
+<rect width="1280" height="7116" transform="translate(-1064 -1030)" fill="#F9F9F9"/>
+<g id="Ellipse 814" filter="url(#filter0_f_0_1)">
+<circle cx="-17" cy="50" r="336" fill="#C38937" fill-opacity="0.1"/>
+</g>
+<g id="row 1">
+<g id="facility 9">
+<rect id="Rectangle 8" x="-97" y="-42" width="255" height="154" rx="4" fill="white" fill-opacity="0.41" stroke="url(#paint0_linear_0_1)" stroke-width="2"/>
+<g id="Group 9">
+<path id="Vector" d="M11.1005 3.12804C11.1005 1.43781 12.466 0.0722656 14.1563 0.0722656H15.6841C17.3744 0.0722656 18.7399 1.43781 18.7399 3.12804V33.6858C18.7399 35.376 17.3744 36.7416 15.6841 36.7416H14.1563C12.466 36.7416 11.1005 35.376 11.1005 33.6858V30.63H6.51682C4.8266 30.63 3.46105 29.2645 3.46105 27.5742V21.4627C1.77082 21.4627 0.405273 20.0971 0.405273 18.4069C0.405273 16.7167 1.77082 15.3511 3.46105 15.3511V9.23959C3.46105 7.54936 4.8266 6.18381 6.51682 6.18381H11.1005V3.12804ZM50.8255 3.12804V6.18381H55.4092C57.0994 6.18381 58.465 7.54936 58.465 9.23959V15.3511C60.1552 15.3511 61.5207 16.7167 61.5207 18.4069C61.5207 20.0971 60.1552 21.4627 58.465 21.4627V27.5742C58.465 29.2645 57.0994 30.63 55.4092 30.63H50.8255V33.6858C50.8255 35.376 49.46 36.7416 47.7698 36.7416H46.2419C44.5517 36.7416 43.1861 35.376 43.1861 33.6858V3.12804C43.1861 1.43781 44.5517 0.0722656 46.2419 0.0722656H47.7698C49.46 0.0722656 50.8255 1.43781 50.8255 3.12804ZM40.1303 15.3511V21.4627H21.7957V15.3511H40.1303Z" fill="#7C6A46"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_1" x="-597.4" y="-530.4" width="1160.8" height="1160.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="122.2" result="effect1_foregroundBlur_0_1"/>
+</filter>
+<linearGradient id="paint0_linear_0_1" x1="30.5" y1="-43" x2="30.5" y2="113" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1280" height="7116" fill="white" transform="translate(-1064 -1030)"/>
+</clipPath>
+</defs>
+</svg>

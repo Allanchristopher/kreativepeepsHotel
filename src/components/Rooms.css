@@ -1,0 +1,96 @@
+.Rooms {
+  width: 100%;
+  height: auto;
+  padding: 0 30px;
+  padding-bottom: 100px;
+  display: grid;
+  justify-content: center;
+  background: url(../assets/Roombackground.svg), lightgray 50% / cover no-repeat;
+}
+.Rooms-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 42px;
+  gap: 41.67px;
+}
+.Rooms-container-1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.Rooms-container-1-contain {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Rooms-heading {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Rooms-heading-underline {
+  width: 118px;
+  height: 6px;
+  flex-shrink: 0;
+  background: #fff;
+}
+.Rooms-small-text {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Rooms-container-2 {
+  width: 100%;
+  display: flex;
+  gap: 49px;
+}
+.Room-box {
+  width: 325px;
+  height: 325px;
+  border-radius: 10px;
+  background: #fff;
+  padding-top: 22px;
+  display: grid;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.room-img {
+  width: 279px;
+  height: 241px;
+}
+.Room-btn {
+  cursor: pointer;
+  position: absolute;
+  width: 143px;
+  height: 34px;
+  letter-spacing: 1px;
+  border-radius: 2.5px;
+  background: #000;
+  border: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  top: 50px;
+  right: 50px;
+}
+@media (min-width: 1500px) {
+  .Home-container {
+    width: 1400px;
+  }
+}

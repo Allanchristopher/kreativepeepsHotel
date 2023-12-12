@@ -1,0 +1,39 @@
+<svg width="52" height="38" viewBox="0 0 52 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="52" height="38" fill="#F3F3F3"/>
+<g id="Yaway Luxury Guest House - Home / S - 720p" clip-path="url(#clip0_0_1)">
+<rect width="1280" height="7116" transform="translate(-462 -1022)" fill="#F9F9F9"/>
+<g id="Ellipse 810" filter="url(#filter0_f_0_1)">
+<circle cx="-272" cy="132" r="298" fill="#F7D353" fill-opacity="0.1"/>
+</g>
+<g id="Ellipse 814" filter="url(#filter1_f_0_1)">
+<circle cx="585" cy="58" r="336" fill="#C38937" fill-opacity="0.1"/>
+</g>
+<g id="row 1">
+<g id="facility 7">
+<rect id="Rectangle 8" x="-102" y="-34" width="255" height="154" rx="4" fill="white" fill-opacity="0.41" stroke="url(#paint0_linear_0_1)" stroke-width="2"/>
+<g id="Group 9">
+<path id="Vector" d="M13.8094 25.2224L9.27963 20.5848C11.4007 18.4637 13.8906 16.7834 16.7494 15.5438C19.6081 14.3043 22.6905 13.6838 25.9965 13.6823C29.3039 13.6823 32.387 14.3115 35.2458 15.5697C38.1046 16.828 40.5938 18.5356 42.7134 20.6926L38.1837 25.2224C36.6018 23.6406 34.7684 22.4003 32.6833 21.5015C30.5981 20.6028 28.3692 20.1534 25.9965 20.1534C23.6238 20.1534 21.3949 20.6028 19.3098 21.5015C17.2246 22.4003 15.3912 23.6406 13.8094 25.2224ZM4.64204 16.0551L0.112305 11.5253C3.41973 8.14599 7.28439 5.50365 11.7063 3.59828C16.1282 1.69292 20.8916 0.740234 25.9965 0.740234C31.1014 0.740234 35.8649 1.69292 40.2867 3.59828C44.7086 5.50365 48.5733 8.14599 51.8807 11.5253L47.351 16.0551C44.5828 13.2869 41.3739 11.1205 37.7242 9.55596C34.0745 7.99141 30.1653 7.20985 25.9965 7.21128C21.8263 7.21128 17.9163 7.99356 14.2666 9.55812C10.617 11.1227 7.40877 13.2883 4.64204 16.0551ZM25.9965 37.4095L33.6 29.7521C32.6293 28.7815 31.4969 28.0171 30.2027 27.4592C28.9085 26.9013 27.5064 26.623 25.9965 26.6244C24.4866 26.6244 23.0845 26.9034 21.7903 27.4614C20.4961 28.0193 19.3637 28.7829 18.393 29.7521L25.9965 37.4095Z" fill="#7C6A46"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_1" x="-814.4" y="-410.4" width="1084.8" height="1084.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="122.2" result="effect1_foregroundBlur_0_1"/>
+</filter>
+<filter id="filter1_f_0_1" x="4.60001" y="-522.4" width="1160.8" height="1160.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="122.2" result="effect1_foregroundBlur_0_1"/>
+</filter>
+<linearGradient id="paint0_linear_0_1" x1="25.5" y1="-35" x2="25.5" y2="121" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1280" height="7116" fill="white" transform="translate(-462 -1022)"/>
+</clipPath>
+</defs>
+</svg>

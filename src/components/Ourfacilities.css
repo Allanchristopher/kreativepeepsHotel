@@ -1,0 +1,112 @@
+.Ourfacilities {
+  width: 100%;
+  height: auto;
+  padding: 0 30px;
+  padding-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.Ourfacilities-background-ball-1 {
+  position: absolute;
+  width: 596px;
+  height: 596px;
+  flex-shrink: 0;
+  left: -200px;
+  border-radius: 596px;
+  background: rgba(247, 211, 83, 0.1);
+  filter: blur(122.19999694824219px);
+}
+.Ourfacilities-background-ball-2 {
+  position: absolute;
+  width: 672px;
+  height: 672px;
+  flex-shrink: 0;
+  border-radius: 672px;
+  background: rgba(195, 137, 55, 0.1);
+  filter: blur(122.19999694824219px);
+  right: -150px;
+}
+.Ourfacilities-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 92px;
+}
+.Ourfacilities-container-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.Ourfacilities-heading {
+  color: #383838;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  z-index: 2;
+}
+.Ourfacilities-small-text {
+  color: #383838;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  z-index: 2;
+}
+.Ourfacilities-container-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 46px;
+}
+.Ourfacilities-box {
+  width: 257px;
+  height: 156px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.41);
+  backdrop-filter: blur(0px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20.59px;
+  z-index: 2;
+}
+.Ourfacilities-box-text {
+  color: #7c6a46;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  z-index: 2;
+}
+.swimming {
+  width: 50.004px;
+  height: 36.669px;
+}
+.wifi {
+  width: 51.768px;
+  height: 36.669px;
+}
+.breakfast {
+  width: 36.665px;
+  height: 36.669px;
+}
+.gym {
+  width: 61.115px;
+  height: 36.669px;
+}
+@media (min-width: 1500px) {
+  .Ourfacilities-container {
+    width: 1400px;
+  }
+}
