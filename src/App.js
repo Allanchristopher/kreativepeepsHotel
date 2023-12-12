@@ -7,6 +7,7 @@ import Ourfacilities from './components/Ourfacilities';
 import About from './components/About';
 import Rooms from './components/Rooms';
 import Gallery from './components/Gallery';
+import Testimonial from './components/Testimonial';
 function App() {
   useEffect(() =>{
     window.scrollTo(0,0);
@@ -18,9 +19,10 @@ function App() {
     <Navbar/>
     <Home/>
     <Ourfacilities/>
-    <About/>
-    <Rooms/>
-    <Gallery/>
+     <About/>
+     <Rooms/>
+      <Gallery/>
+     <Testimonial/>
     </div>
 
   );
