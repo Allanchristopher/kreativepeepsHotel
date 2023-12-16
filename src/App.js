@@ -8,6 +8,8 @@ import About from './components/About';
 import Rooms from './components/Rooms';
 import Gallery from './components/Gallery';
 import Testimonial from './components/Testimonial';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 function App() {
   useEffect(() =>{
     window.scrollTo(0,0);
@@ -21,8 +23,10 @@ function App() {
     <Ourfacilities/>
      <About/>
      <Rooms/>
-      <Gallery/>
+     <Gallery/>
      <Testimonial/>
+    <Contact/>
+    <Footer/>
     </div>
 
   );
