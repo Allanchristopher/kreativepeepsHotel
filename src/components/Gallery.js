@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 import "./Gallery.css";
-import image1 from "../assets/image-1.svg";
-import image2 from "../assets/image-2.svg";
-import image3 from "../assets/image-3.svg";
-import image4 from "../assets/image-4.svg";
-import image5 from "../assets/image-5.svg";
-import image6 from "../assets/image-6.svg";
+import image1 from "../assets/image-1.png";
+import image2 from "../assets/image-2.png";
+import image3 from "../assets/image-3.png";
+import image4 from "../assets/image-4.png";
+import image5 from "../assets/image-5.png";
+import image6 from "../assets/image-6.png";
 
 function Gallery() {
   const [selectedRoom, setSelectedRoom] = useState("king");
 
   const roomImages = {
     king: [image1, image2, image3, image4, image5, image6],
-    queen: [image1, image2, image3, image4, image5],
-    quad: [image3, image4, image5, image6],
+    queen: [image1,image2, image3, image4, image5],
+    quad: [image3, image4, image5],
   };
 
   const handleButtonClick = (roomType) => {
