@@ -57,3 +57,33 @@
       width: 1400px;
     }
   }
+@media(max-width:1000px){
+  .About-container{
+    grid-template-columns: 1fr;
+    gap: 70px;
+  }
+  .about-container-1 {
+    justify-content: center;
+}
+.about-container-2 {
+  text-align: center;
+}
+}
+@media(max-width:600px){
+
+  .about-heading {
+    font-size: 38px;
+  }
+}
+@media(max-width:450px){
+  .aboutimg{
+    width: 80%;
+    height: 80%;
+  }
+  .about-heading {
+    font-size: 30px;
+  }
+  .about-small-text {
+    font-size: 12px;
+  }
+}
