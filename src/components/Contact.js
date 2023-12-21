@@ -120,7 +120,7 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div className="Contact-container-2">
+        <div className="Contact-container-2" >
           <div className="map">
             <MapComponent className="leaf-let-map" data-aos="fade-up"/>
           </div>
