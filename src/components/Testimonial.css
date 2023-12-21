@@ -8,11 +8,15 @@
   padding-right: 30px;
   padding-top: 50px;
   padding-bottom: 30px;
+  overflow: hidden;
 }
 .Testimonial-container {
   width: 100%;
   height: 100%;
   display: grid;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 52px;
 }
 .Testimonial-contain-text {
@@ -36,8 +40,15 @@
   font-weight: 500;
   line-height: normal;
 }
+.Testmonial-slider-carousel {
+  width: 95vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .testimonial-box {
-  width: 470px;
+  max-width: auto;
   height: 486px;
   flex-shrink: 0;
   border-radius: 10px;
@@ -45,7 +56,7 @@
   background: #fff;
   backdrop-filter: blur(7.199999809265137px);
   padding: 10px;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -84,8 +95,7 @@
   width: 22.4px;
   height: 16px;
   position: absolute;
-  top:-20px;
-  left: -40px;
+  top: -20px;
 }
 .second {
   width: 22.4px;
@@ -101,20 +111,74 @@
   font-weight: 500;
   line-height: normal;
   text-align: left;
-  
 }
-.testimonial-box-third{
+.testimonial-box-third {
   width: 100%;
   position: relative;
 }
-.testimonial-name{
+.testimonial-name {
   position: absolute;
   left: 60px;
   color: #454545;
-text-align: justify;
-font-family: "Poppins", sans-serif;
-font-size: 13px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  bottom: 60px;
 }
+@media (min-width: 1500px) {
+  .Testimonial-container {
+    width: 1400px;
+  }
+  .Testmonial-slider-carousel {
+    width: 1300px;
+  }
+}
+@media (max-width: 900px) {
+  .testimonial-box {
+    max-width: auto;
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .Testimonial-heading {
+    font-size: 38px;
+  }
+
+  .testimonial-message {
+    font-size: 18px;
+  }
+  .first {
+    width: 20px;
+    height: 14px;
+  }
+  .second {
+    width: 20px;
+    height: 14px;
+  }
+}
+@media (max-width: 450px) {
+  .Testimonial-heading {
+    font-size: 30px;
+  }
+  .Testimonial-small-text {
+    font-size: 12px;
+  }
+  .testimonial-message {
+    font-size: 16px;
+  }
+  .first {
+    width: 16px;
+    height: 14px;
+  }
+  .second {
+    width: 16px;
+    height: 14px;
+  }
+}
+/* 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css"; */

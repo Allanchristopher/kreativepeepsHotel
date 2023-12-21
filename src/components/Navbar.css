@@ -118,14 +118,18 @@ nav a .nav-active:before {
 }
 @media (max-width: 1000px) {
   .nav-res-btn {
-    visibility: visible;
-    position: relative;
+    visibility: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
   }
   .nav-res-close-btn {
     visibility: visible;
     position: absolute;
     top: 2rem;
     right: 3rem;
+    width: 0;
+    height: 0;
   }
   .header nav {
     position: fixed;
@@ -157,9 +161,8 @@ nav a .nav-active:before {
     color: black;
   }
   .call-button {
-    visibility: hidden;
-    width: 0;
-    height: 0;
+    visibility: visible;
+
   }
 }
 @media (max-width: 600px) {

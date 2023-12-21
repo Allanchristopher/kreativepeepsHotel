@@ -53,7 +53,7 @@ function Navbar() {
               to="Ourfacilities"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-80}
               duration={500}
               onClick={handleShowNavbar}
             >
@@ -66,7 +66,7 @@ function Navbar() {
               to="About"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-80}
               duration={500}
               onClick={handleShowNavbar}
             >
@@ -79,7 +79,7 @@ function Navbar() {
               to="Rooms"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-80}
               duration={500}
               onClick={handleShowNavbar}
             >
@@ -92,7 +92,7 @@ function Navbar() {
               to="Gallery"
               spy={true}
               smooth={true}
-              offset={-40}
+              offset={-80}
               duration={500}
               onClick={handleShowNavbar}
             >
@@ -102,7 +102,7 @@ function Navbar() {
           <a>
             <Link
               activeClass="nav-a-active"
-              to="Testimonials"
+              to="Testimonial"
               spy={true}
               smooth={true}
               offset={-40}
@@ -115,7 +115,7 @@ function Navbar() {
           <a>
             <Link
               activeClass="nav-a-active"
-              to="Contact Us"
+              to="Contact"
               spy={true}
               smooth={true}
               offset={-40}

@@ -57,73 +57,73 @@ function Footer() {
               </a>
               <a>
                 <Link
-                  activeClass="nav-a-active"
-                  to="OurFacilities"
-                  spy={true}
-                  smooth={true}
-                  offset={-50}
-                  duration={500}
-                >
+              activeClass="nav-a-active"
+              to="Ourfacilities"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
                 Our Facilities
                 </Link>
               </a>
               <a>
-                <Link
-                  activeClass="nav-a-active"
-                  to="About"
-                  spy={true}
-                  smooth={true}
-                  offset={-50}
-                  duration={500}
-                >
+              <Link
+              activeClass="nav-a-active"
+              to="About"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
                 About
                 </Link>
               </a>
               <a>
-                <Link
-                  activeClass="nav-a-active"
-                  to="Rooms"
-                  spy={true}
-                  smooth={true}
-                  offset={-50}
-                  duration={500}
-                >
+              <Link
+              activeClass="nav-a-active"
+              to="Rooms"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
                 Rooms
                 </Link>
               </a>
               <a>
-                <Link
-                  activeClass="nav-a-active"
-                  to="Gallery"
-                  spy={true}
-                  smooth={true}
-                  offset={-40}
-                  duration={500}
-                >
+              <Link
+              activeClass="nav-a-active"
+              to="Gallery"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
                 Gallery
                 </Link>
               </a>
               <a>
-                <Link
-                  activeClass="nav-a-active"
-                  to="Testimonials"
-                  spy={true}
-                  smooth={true}
-                  offset={-40}
-                  duration={500}
-                >
+              <Link
+              activeClass="nav-a-active"
+              to="Testimonial"
+              spy={true}
+              smooth={true}
+              offset={-40}
+              duration={500}
+            >
                 Testimonials
                 </Link>
               </a>
               <a>
-                <Link
-                  activeClass="nav-a-active"
-                  to="Contact"
-                  spy={true}
-                  smooth={true}
-                  offset={-40}
-                  duration={500}
-                >
+              <Link
+              activeClass="nav-a-active"
+              to="Contact"
+              spy={true}
+              smooth={true}
+              offset={-40}
+              duration={500}
+            >
                 Contact
                 </Link>
               </a>

@@ -5,7 +5,7 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 50px;
@@ -32,8 +32,7 @@
   line-height: normal;
 }
 .Contact-res {
-  width: 100%;
-  height: 100%;
+
   display: grid;
   align-items: center;
   justify-content: center;
@@ -62,7 +61,7 @@
   align-items: center;
   padding: 12px 20px;
   color: #828282;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .input-textarea {
   display: flex;
@@ -75,7 +74,7 @@
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   color: #828282;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .Send-btn {
   display: flex;
@@ -198,14 +197,7 @@
 .tenkasi-btn:hover {
   scale: 0.96;
 }
-.Contact-container-2 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 
 .map {
   width: 100%;
@@ -218,10 +210,6 @@
   width: 571px;
   height: 430px;
   z-index: 0;
-}
-.mobile-view {
-  visibility: hidden;
-  position: absolute;
 }
 
 @media (max-width: 1300px) {
@@ -278,14 +266,7 @@
   }
 }
 @media (max-width: 1050px) {
-  .computer-view {
-    visibility: hidden;
-    position: absolute;
-  }
-  .mobile-view {
-    visibility: visible;
-    position: relative;
-  }
+
 
   .Contact-res {
     grid-template-columns: 1fr;
@@ -294,10 +275,7 @@
     gap: 60px;
     margin-top: 90px;
   }
-  .Contact-container-2 {
-    background-color: #222222;
-    padding: 4rem 0rem;
-  }
+
   .text-input {
     width: 100%;
     height: 50px;
@@ -336,7 +314,7 @@
     --p-Contact-font-size: 12px;
   }
   .leaf-let-map {
-    width: 300px;
+    width: 400px;
     height: 400px;
   }
   .Contact-container-1 {
@@ -348,26 +326,22 @@
 }
 @media (max-width: 450px) {
   .Contact-res {
-    gap: 20px;
-    padding: 0rem 4rem;
-    padding-bottom: 6rem;
+    gap: 40px;
+
   }
   .leaf-let-map {
-    width: 280px;
+    width: 350px;
     height: 400px;
   }
-  .direction-controler {
-    padding: 1rem;
-  }
+
 }
 @media (max-width: 400px) {
   .Contact-res {
-    gap: 20px;
-    padding: 0rem 1rem;
+    gap: 30px;
     padding-bottom: 5rem;
   }
   .leaf-let-map {
-    width: 280px;
+    width: 300px;
     height: 350px;
   }
 }
